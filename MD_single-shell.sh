@@ -5,7 +5,7 @@ printf "\n START: MD_single-shell"
 # Script name: rodent_struct
 
 # Description: Script to calculate MD from single-shell data
-# The noise floor is high relative to the single when acquiring diffusion data at high bvalues so the MD estimates for multishell data will be inaccurate
+# The noise floor is high relative to the signal when acquiring diffusion data at high bvalues so the MD estimates for multishell data will be inaccurate
 # It is better to calculate MD on single shell diffusion data acquired at low bval
 # As a sanity check, verify what the MD in the ventricles is, it should be ~0.0003mm^2/s at body temperature
 
