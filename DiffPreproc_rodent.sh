@@ -129,6 +129,6 @@ printf "\n  Queueing Eddy\n"
 ${ScriptsDir}/run_eddy_rodent.sh ${outdir}/eddy 
 
 printf "\n  Queueing Eddy PostProcessing\n"
-${ScriptsDir}/eddy_postproc.sh ${outdir} ${CombineMatched} ${ScriptsDir}
+${ScriptsDir}/eddy_postproc.sh ${outdir} ${CombineMatched}
 
 printf "\n END: DiffPreproc_rodent.sh \n"
